@@ -853,7 +853,7 @@ html.original .page {
   font-size: clamp(11px, 1vw, 16px);
   letter-spacing: 0;
   text-transform: none;
-  padding: 18px 24px;
+  padding: 18px 0;
   color: white;
   flex: 1;
   transition: transform 0.2s ease-in-out;
