@@ -1084,12 +1084,19 @@ html.original .circle2 {
   height: 600px;
   min-width: 600px;
   min-height: 600px;
+  animation: floatOriginal2 6s ease-in-out infinite;
 }
 
 @keyframes floatOriginal {
   0%   { transform: translateY(0);    box-shadow: 0 0 40px 15px rgba(52,152,219,0.5); }
   50%  { transform: translateY(-20px); box-shadow: 0 0 300px 20px rgba(52,152,219,0.6); }
   100% { transform: translateY(0);    box-shadow: 0 0 40px 15px rgba(52,152,219,0.5); }
+}
+
+@keyframes floatOriginal2 {
+  0% { transform: translateY(0px);   background: rgba(0, 217, 255, 0.2);}
+  50% { transform: translateY(-20px); background: rgba(0, 217, 255, 0);}
+  100% { transform: translateY(0px); background: rgba(0, 217, 255, 0.2);}
 }
 
 /* ── Scrollbar ── (applied in both modes) */
